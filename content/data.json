@@ -1,0 +1,59 @@
+{
+  "contact": {
+    "whatsapp": "3275581155",
+    "email": "villalerosesabaudia@gmail.com",
+    "phoneHref": "3275581155",
+    "phone": "3275581155",
+    "copy": "ciao ",
+    "title": "ciao"
+  },
+  "site": {
+    "heroTitle": "d",
+    "heroLead": "d",
+    "heroAlt": "d",
+    "heroImage": "<zd<z",
+    "quick1": "z<",
+    "quick2": "<z",
+    "quick3": "<z",
+    "quick4": "<z"
+  },
+  "villa": {
+    "title": "<z",
+    "p1": "<z",
+    "p2": "z<",
+    "p3": "<zz<zc"
+  },
+  "apartments": {
+    "title": "z<c",
+    "items": [
+      {
+        "badge": "z<x",
+        "name": "z<x",
+        "poolNote": "<zx",
+        "imageAlt": "z<x",
+        "desc": "z<x",
+        "ospiti": "<zx",
+        "subtitle": "z<x",
+        "priceNote": "<zx",
+        "id": "<zxz<",
+        "image": "<zx"
+      }
+    ]
+  },
+  "services": {
+    "title": "<zx"
+  },
+  "gallery": {
+    "title": "<zx"
+  },
+  "location": {
+    "title": "<zx",
+    "address": "z<x",
+    "city": "z<x",
+    "mapUrl": "<z"
+  },
+  "footer": {
+    "tagline": "<zxz<x",
+    "copyright": "<zx"
+  }
+}
