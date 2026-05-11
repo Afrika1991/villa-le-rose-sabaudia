@@ -1,0 +1,168 @@
+{
+  "site": {
+    "heroTitle": "Tra Sabaudia e il Circeo, un luogo raccolto",
+    "heroLead": "Villa le Rose è pensata per chi cerca tranquillità, contatto diretto e una vacanza semplice ma curata. Due soluzioni indipendenti, atmosfera autentica, gestione flessibile della piscina.",
+    "heroImage": "/assets/img/hero.jpg",
+    "heroAlt": "Giardino mediterraneo con piscina di Villa le Rose — Sabaudia",
+    "quick1": "🏡 2 dépendance indipendenti",
+    "quick2": "👥 3–4 ospiti per soluzione",
+    "quick3": "💬 Risposta rapida da Anna",
+    "quick4": "🏊 Piscina condivisa o esclusiva"
+  },
+  "villa": {
+    "title": "Non un hotel. Non un resort.",
+    "p1": "C'è un posto tra Sabaudia e il Circeo dove il tempo rallenta davvero. Non è un hotel, non è un resort: sono due piccole dépendance indipendenti immerse in un giardino rigoglioso, a due passi dalla piscina e lontane dal caos estivo.",
+    "p2": "Villa le Rose nasce per chi cerca qualcosa di semplice e autentico: non solo un posto dove dormire, ma un posto dove respirare. Il verde, il silenzio, l'ombra degli alberi nel pomeriggio: qui la vacanza comincia appena si varca il cancello.",
+    "p3": "Ogni dépendance ha ingresso indipendente dall'esterno, cucina attrezzata e bagno privato. Tutto il necessario, senza il superfluo."
+  },
+  "apartments": {
+    "title": "Rosa e Ulivo",
+    "items": [
+      {
+        "id": "rosa",
+        "name": "Rosa",
+        "subtitle": "La dépendance più vicina alla piscina",
+        "badge": "🌿 Atmosfera raccolta",
+        "image": "/assets/img/rosa.jpg",
+        "imageAlt": "Interno dépendance Rosa con affaccio sul giardino e piscina",
+        "desc": "Piccola, curata e direttamente affacciata sul giardino con piscina. È la soluzione ideale per chi vuole avere l'acqua a portata di mano e godere del verde in un contesto riservato, con tutto il necessario per un soggiorno autonomo.",
+        "ospiti": "3–4 ospiti",
+        "poolNote": "La piscina è disponibile per entrambe le dépendance. Se nessuno richiede l'uso esclusivo, l'utilizzo è condiviso. L'uso esclusivo è disponibile con maggiorazione, su richiesta.",
+        "priceNote": "Nessun prezzo pubblicato. Anna comunica disponibilità e proposta direttamente, così ricevi l'opzione più corretta senza equivoci.",
+        "tags": [
+          "🛏️ 3–4 posti",
+          "🍳 Cucina attrezzata",
+          "🚿 Bagno privato",
+          "❄️ Aria condizionata",
+          "👕 Lavatrice",
+          "🪑 Tavolo in giardino",
+          "🐾 Pet friendly"
+        ]
+      },
+      {
+        "id": "ulivo",
+        "name": "Ulivo",
+        "subtitle": "Con recinto privato per il tuo cane",
+        "badge": "🐾 Ideale con animali",
+        "image": "/assets/img/ulivo.jpg",
+        "imageAlt": "Giardino privato dépendance Ulivo con recinto per cani",
+        "desc": "Immerso nel verde del giardino, Ulivo offre tranquillità, indipendenza e il vantaggio di un recinto privato per i tuoi amici a quattro zampe. Perfetto per chi viaggia con un cane e vuole che anche lui si goda la vacanza in totale libertà.",
+        "ospiti": "3–4 ospiti",
+        "poolNote": "Anche Ulivo può accedere alla piscina. La modalità condivisa o esclusiva dipende dalla soluzione prenotata e dall'eventuale blocco dell'uso esclusivo da parte degli altri ospiti.",
+        "priceNote": "Nessun prezzo esposto. Il contatto diretto evita che l'ospite rinunci pensando a tariffe alte senza aver ricevuto la proposta corretta.",
+        "tags": [
+          "🛏️ 3–4 posti",
+          "🍳 Cucina attrezzata",
+          "🚿 Bagno privato",
+          "❄️ Aria condizionata",
+          "🌳 Giardino",
+          "👕 Lavatrice",
+          "🅿️ Parcheggio scoperto",
+          "🐶 Recinto per cane"
+        ]
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon": "🏊",
+      "title": "Piscina",
+      "desc": "Uso condiviso o esclusivo su richiesta. L'esclusività è disponibile con maggiorazione, da concordare con Anna.",
+      "note": "Su richiesta · maggiorazione per uso esclusivo"
+    },
+    {
+      "icon": "📶",
+      "title": "WiFi",
+      "desc": "La connessione è disponibile nella struttura, ma va richiesta in anticipo al momento della prenotazione.",
+      "note": "Solo su richiesta anticipata"
+    },
+    {
+      "icon": "🅿️",
+      "title": "Parcheggio",
+      "desc": "Parcheggio disponibile all'interno della proprietà, scoperto e non custodito.",
+      "note": "Scoperto · non custodito"
+    },
+    {
+      "icon": "🐾",
+      "title": "Animali",
+      "desc": "Animali ammessi, piccola taglia. Ulivo dispone di recinto privato: l'ideale per i cani.",
+      "note": "Piccola taglia · recinto in Ulivo"
+    },
+    {
+      "icon": "🔑",
+      "title": "Ingresso",
+      "desc": "Ogni dépendance ha ingresso indipendente dall'esterno. Massima autonomia e riservatezza durante il soggiorno.",
+      "note": "Indipendente dall'esterno"
+    }
+  ],
+  "gallery": {
+    "title": "Galleria",
+    "items": [
+      {
+        "image": "/assets/img/galleria-1.jpg",
+        "thumb": "/assets/img/galleria-1-thumb.jpg",
+        "alt": "Piscina e giardino mediterraneo"
+      },
+      {
+        "image": "/assets/img/galleria-2.jpg",
+        "thumb": "/assets/img/galleria-2-thumb.jpg",
+        "alt": "Interno dépendance Rosa"
+      },
+      {
+        "image": "/assets/img/galleria-3.jpg",
+        "thumb": "/assets/img/galleria-3-thumb.jpg",
+        "alt": "Esterno e ingresso indipendente"
+      },
+      {
+        "image": "/assets/img/galleria-4.jpg",
+        "thumb": "/assets/img/galleria-4-thumb.jpg",
+        "alt": "Giardino privato Ulivo"
+      },
+      {
+        "image": "/assets/img/galleria-5.jpg",
+        "thumb": "/assets/img/galleria-5-thumb.jpg",
+        "alt": "Zona relax all'aperto"
+      },
+      {
+        "image": "/assets/img/galleria-6.jpg",
+        "thumb": "/assets/img/galleria-6-thumb.jpg",
+        "alt": "Vista esterna Villa le Rose"
+      }
+    ]
+  },
+  "location": {
+    "title": "Dove siamo",
+    "address": "Via Migliara 58 km 7",
+    "city": "Sabaudia (LT)",
+    "poi": [
+      {
+        "icon": "🏖️",
+        "name": "Sabaudia",
+        "desc": "A circa 3 km dal mare"
+      },
+      {
+        "icon": "🌲",
+        "name": "Parco del Circeo",
+        "desc": "A circa 6 km tra natura, lago e promontorio"
+      },
+      {
+        "icon": "🚗",
+        "name": "Terracina",
+        "desc": "Comoda anche per servizi e uscite serali"
+      }
+    ],
+    "mapUrl": "https://www.openstreetmap.org/export/embed.html?bbox=13.10,41.27,13.25,41.36&layer=mapnik&marker=41.316,13.178"
+  },
+  "contact": {
+    "title": "Contatta Anna",
+    "copy": "Per tariffe e disponibilità preferiamo il contatto diretto. In questo modo possiamo dirti subito quale appartamento è più adatto, se la piscina è condivisa o esclusiva e quale soluzione conviene davvero al tuo soggiorno.",
+    "phone": "327 558 1155",
+    "phoneHref": "+393275581155",
+    "email": "villalerosesabaudia@gmail.com",
+    "whatsapp": "+393275581155"
+  },
+  "footer": {
+    "tagline": "Due dépendance indipendenti tra Sabaudia e il Circeo, per chi cerca tranquillità, contatto diretto e una vacanza autentica.",
+    "copyright": "© 2025 Villa le Rose · Sabaudia (LT) · Affitti brevi"
+  }
+}
