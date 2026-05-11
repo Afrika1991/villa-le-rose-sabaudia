@@ -1,5 +1,5 @@
 [build]
-  publish = "villa_le_rose_final/public"
+  publish = "public"
   command = ""
 
 [[redirects]]
