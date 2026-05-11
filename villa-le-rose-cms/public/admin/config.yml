@@ -5,8 +5,8 @@ backend:
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-site_url: https://YOUR-SITE.netlify.app
-display_url: https://YOUR-SITE.netlify.app
+site_url: https://villalerosesabaudia.netlify.app
+display_url: https://villalerosesabaudia.netlify.app
 
 collections:
   - name: "site"
