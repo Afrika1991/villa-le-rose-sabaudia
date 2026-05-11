@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "assets/img"
+media_folder: "villa_le_rose_final/public/assets/img"
 public_folder: "/assets/img"
 
 site_url: "https://villalerosesabaudia.netlify.app"
@@ -10,11 +10,11 @@ display_url: "https://villalerosesabaudia.netlify.app"
 
 collections:
   - name: "site"
-    label: "🌐 Contenuti sito"
+    label: "Contenuti sito"
     files:
       - name: "data"
         label: "Dati sito"
-        file: "content/data.json"
+        file: "villa_le_rose_final/content/data.json"
         format: "json"
         fields:
           - name: site
@@ -61,22 +61,16 @@ collections:
                   - name: tags
                     label: "Tag dotazioni"
                     widget: list
-                    field:
-                      { label: "Tag", name: "tag", widget: "string" }
+                    field: { label: "Tag", name: "tag", widget: "string" }
 
           - name: services
             label: "Servizi"
-            widget: object
+            widget: list
             fields:
-              - { label: "Titolo sezione", name: "title", widget: "string" }
-              - name: items
-                label: "Servizi"
-                widget: list
-                fields:
-                  - { label: "Icona emoji", name: "icon", widget: "string" }
-                  - { label: "Titolo", name: "title", widget: "string" }
-                  - { label: "Descrizione", name: "desc", widget: "text" }
-                  - { label: "Nota breve", name: "note", widget: "string" }
+              - { label: "Icona emoji", name: "icon", widget: "string" }
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Descrizione", name: "desc", widget: "text" }
+              - { label: "Nota breve", name: "note", widget: "string" }
 
           - name: gallery
             label: "Galleria"
@@ -97,7 +91,7 @@ collections:
             fields:
               - { label: "Titolo", name: "title", widget: "string" }
               - { label: "Indirizzo", name: "address", widget: "string" }
-              - { label: "Città", name: "city", widget: "string" }
+              - { label: "Citta", name: "city", widget: "string" }
               - { label: "URL mappa embed", name: "mapUrl", widget: "string" }
               - name: poi
                 label: "Punti di interesse"
