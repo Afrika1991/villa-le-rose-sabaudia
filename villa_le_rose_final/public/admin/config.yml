@@ -5,114 +5,122 @@ backend:
 media_folder: "assets/img"
 public_folder: "/assets/img"
 
-site_url: https://villalerosesabaudia.netlify.app
-public_url: https://villalerosesabaudia.netlify.app
-display_url: https://villalerosesabaudia.netlify.app
+site_url: "https://villalerosesabaudia.netlify.app"
+display_url: "https://villalerosesabaudia.netlify.app"
 
 collections:
   - name: "site"
     label: "🌐 Contenuti sito"
-    file: "content/data.json"
-    format: "json"
-    fields:
-      - name: site
-        label: "Hero & Quick"
-        widget: object
+    files:
+      - name: "data"
+        label: "Dati sito"
+        file: "content/data.json"
+        format: "json"
         fields:
-          - {label: "Titolo hero", name: heroTitle, widget: string}
-          - {label: "Lead hero", name: heroLead, widget: text}
-          - {label: "Foto hero", name: heroImage, widget: image}
-          - {label: "Alt foto hero", name: heroAlt, widget: string}
-          - {label: "Quick 1", name: quick1, widget: string}
-          - {label: "Quick 2", name: quick2, widget: string}
-          - {label: "Quick 3", name: quick3, widget: string}
-          - {label: "Quick 4", name: quick4, widget: string}
+          - name: site
+            label: "Hero & Quick"
+            widget: object
+            fields:
+              - { label: "Titolo hero", name: "heroTitle", widget: "string" }
+              - { label: "Lead hero", name: "heroLead", widget: "text" }
+              - { label: "Foto hero", name: "heroImage", widget: "image" }
+              - { label: "Alt foto hero", name: "heroAlt", widget: "string" }
+              - { label: "Quick 1", name: "quick1", widget: "string" }
+              - { label: "Quick 2", name: "quick2", widget: "string" }
+              - { label: "Quick 3", name: "quick3", widget: "string" }
+              - { label: "Quick 4", name: "quick4", widget: "string" }
 
-      - name: villa
-        label: "La Villa"
-        widget: object
-        fields:
-          - {label: "Titolo", name: title, widget: string}
-          - {label: "Paragrafo 1", name: p1, widget: text}
-          - {label: "Paragrafo 2", name: p2, widget: text}
-          - {label: "Paragrafo 3", name: p3, widget: text}
+          - name: villa
+            label: "La Villa"
+            widget: object
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Paragrafo 1", name: "p1", widget: "text" }
+              - { label: "Paragrafo 2", name: "p2", widget: "text" }
+              - { label: "Paragrafo 3", name: "p3", widget: "text" }
 
-      - name: apartments
-        label: "Appartamenti"
-        widget: object
-        fields:
-          - {label: "Titolo sezione", name: title, widget: string}
-          - name: items
+          - name: apartments
             label: "Appartamenti"
-            widget: list
+            widget: object
             fields:
-              - {label: "ID", name: id, widget: string}
-              - {label: "Nome", name: name, widget: string}
-              - {label: "Sottotitolo", name: subtitle, widget: string}
-              - {label: "Badge", name: badge, widget: string}
-              - {label: "Foto", name: image, widget: image}
-              - {label: "Alt foto", name: imageAlt, widget: string}
-              - {label: "Descrizione", name: desc, widget: text}
-              - {label: "Ospiti", name: ospiti, widget: string}
-              - {label: "Nota piscina", name: poolNote, widget: text}
-              - {label: "Nota prezzi", name: priceNote, widget: text}
-              - name: tags
-                label: "Tag dotazioni"
+              - { label: "Titolo sezione", name: "title", widget: "string" }
+              - name: items
+                label: "Appartamenti"
                 widget: list
-                field: {label: Tag, name: tag, widget: string}
+                fields:
+                  - { label: "ID", name: "id", widget: "string" }
+                  - { label: "Nome", name: "name", widget: "string" }
+                  - { label: "Sottotitolo", name: "subtitle", widget: "string" }
+                  - { label: "Badge", name: "badge", widget: "string" }
+                  - { label: "Foto", name: "image", widget: "image" }
+                  - { label: "Alt foto", name: "imageAlt", widget: "string" }
+                  - { label: "Descrizione", name: "desc", widget: "text" }
+                  - { label: "Ospiti", name: "ospiti", widget: "string" }
+                  - { label: "Nota piscina", name: "poolNote", widget: "text" }
+                  - { label: "Nota prezzi", name: "priceNote", widget: "text" }
+                  - name: tags
+                    label: "Tag dotazioni"
+                    widget: list
+                    field:
+                      { label: "Tag", name: "tag", widget: "string" }
 
-      - name: services
-        label: "Servizi"
-        widget: list
-        fields:
-          - {label: "Icona emoji", name: icon, widget: string}
-          - {label: "Titolo", name: title, widget: string}
-          - {label: "Descrizione", name: desc, widget: text}
-          - {label: "Nota breve", name: note, widget: string}
-
-      - name: gallery
-        label: "Galleria"
-        widget: object
-        fields:
-          - {label: "Titolo sezione", name: title, widget: string}
-          - name: items
-            label: "Foto galleria"
-            widget: list
+          - name: services
+            label: "Servizi"
+            widget: object
             fields:
-              - {label: "Foto grande (lightbox)", name: image, widget: image}
-              - {label: "Thumbnail (griglia)", name: thumb, widget: image}
-              - {label: "Alt text", name: alt, widget: string}
+              - { label: "Titolo sezione", name: "title", widget: "string" }
+              - name: items
+                label: "Servizi"
+                widget: list
+                fields:
+                  - { label: "Icona emoji", name: "icon", widget: "string" }
+                  - { label: "Titolo", name: "title", widget: "string" }
+                  - { label: "Descrizione", name: "desc", widget: "text" }
+                  - { label: "Nota breve", name: "note", widget: "string" }
 
-      - name: location
-        label: "Dove siamo"
-        widget: object
-        fields:
-          - {label: "Titolo", name: title, widget: string}
-          - {label: "Indirizzo", name: address, widget: string}
-          - {label: "Città", name: city, widget: string}
-          - {label: "URL mappa embed", name: mapUrl, widget: string}
-          - name: poi
-            label: "Punti di interesse"
-            widget: list
+          - name: gallery
+            label: "Galleria"
+            widget: object
             fields:
-              - {label: "Icona emoji", name: icon, widget: string}
-              - {label: "Nome", name: name, widget: string}
-              - {label: "Descrizione breve", name: desc, widget: string}
+              - { label: "Titolo sezione", name: "title", widget: "string" }
+              - name: items
+                label: "Foto galleria"
+                widget: list
+                fields:
+                  - { label: "Foto grande (lightbox)", name: "image", widget: "image" }
+                  - { label: "Thumbnail (griglia)", name: "thumb", widget: "image" }
+                  - { label: "Alt text", name: "alt", widget: "string" }
 
-      - name: contact
-        label: "Contatti"
-        widget: object
-        fields:
-          - {label: "Titolo", name: title, widget: string}
-          - {label: "Testo introduttivo", name: copy, widget: text}
-          - {label: "Telefono (visualizzato)", name: phone, widget: string}
-          - {label: "Telefono (href tel:)", name: phoneHref, widget: string}
-          - {label: "Email", name: email, widget: string}
-          - {label: "WhatsApp (numero)", name: whatsapp, widget: string}
+          - name: location
+            label: "Dove siamo"
+            widget: object
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Indirizzo", name: "address", widget: "string" }
+              - { label: "Città", name: "city", widget: "string" }
+              - { label: "URL mappa embed", name: "mapUrl", widget: "string" }
+              - name: poi
+                label: "Punti di interesse"
+                widget: list
+                fields:
+                  - { label: "Icona emoji", name: "icon", widget: "string" }
+                  - { label: "Nome", name: "name", widget: "string" }
+                  - { label: "Descrizione breve", name: "desc", widget: "string" }
 
-      - name: footer
-        label: "Footer"
-        widget: object
-        fields:
-          - {label: "Tagline", name: tagline, widget: text}
-          - {label: "Copyright", name: copyright, widget: string}
+          - name: contact
+            label: "Contatti"
+            widget: object
+            fields:
+              - { label: "Titolo", name: "title", widget: "string" }
+              - { label: "Testo introduttivo", name: "copy", widget: "text" }
+              - { label: "Telefono (visualizzato)", name: "phone", widget: "string" }
+              - { label: "Telefono (href tel:)", name: "phoneHref", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "WhatsApp (numero)", name: "whatsapp", widget: "string" }
+
+          - name: footer
+            label: "Footer"
+            widget: object
+            fields:
+              - { label: "Tagline", name: "tagline", widget: "text" }
+              - { label: "Copyright", name: "copyright", widget: "string" }
